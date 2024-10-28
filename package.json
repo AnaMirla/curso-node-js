@@ -1,0 +1,30 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "main": "nodemon ./clase-2/routing.js",
+  "scripts": {
+    "dev:1": "nodemon ./clase-2/http.js",
+    "dev:2": "nodemon ./clase-2/routing.js",
+    "dev:3": "node --watch ./clase-2/express.js",
+    "dev:4": "nodemon ./clase-3/app.js",
+    "dev:5": "node --watch ./clase-3/app.js",
+    "dev:6": "node --watch ./server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.21.1",
+    "find-free-port": "^2.0.0",
+    "mysql2": "^3.11.3",
+    "picocolors": "^1.1.0",
+    "uuid": "^10.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "standard": "^17.1.2"
+  }
+}
