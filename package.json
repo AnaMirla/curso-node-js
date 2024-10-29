@@ -21,6 +21,7 @@
     "mysql2": "^3.11.3",
     "picocolors": "^1.1.0",
     "uuid": "^10.0.0",
+    "wsl": "^1.0.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
